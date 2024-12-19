@@ -68,9 +68,11 @@
 
 ## Explorative Data Analysis
 ### Numerica Data
-Before performing the exploratory data analysis (EDA), the dataset was examined for missing values and anomalies. The results showed no missing values, and the only detected anomaly was the date column being in an object format, which was converted to an integer for improved data accuracy. The EDA revealed that the distribution of **Age** is standard with no outliers, while the distribution of **BMI (Body Mass Index)** is right-skewed but also free of outliers. A correlation analysis of the numerical variables indicated no negative correlations among the features. The strongest correlation was observed between **Blood Glucose Level** and **Diabetes** at 0.42, followed by **HbA1c Level** and **Diabetes** at 0.40, and **BMI** and **Age** at 0.34. The weakest correlation was between **HbA1c Level** and **Age**, with a value of 0.10. These insights provide a solid foundation for feature selection and model building.
+Before performing the exploratory data analysis (EDA), the dataset was examined for missing values and anomalies. The results showed no missing values, and the only detected anomaly was the date column being in an object format, which was converted to an integer for improved data accuracy. The EDA revealed that the distribution of **Age** is standard with no outliers, while the distribution of **BMI (Body Mass Index)** is right-skewed but also free of outliers. insights provide a solid foundation for feature selection and model building.
 ![image](https://github.com/user-attachments/assets/b83dfa80-9193-420d-a27d-70ad5adcb25f)
 
+A correlation analysis of the numerical variables indicated no negative correlations among the features. The strongest correlation was observed between **Blood Glucose Level** and **Diabetes** at 0.42, followed by **HbA1c Level** and **Diabetes** at 0.40, and **BMI** and **Age** at 0.34. The weakest correlation was between **HbA1c Level** and **Age**, with a value of 0.10. These 
+![image](https://github.com/user-attachments/assets/43ee63da-556d-494d-8fa9-f5e1f21b7157)
 
 
 
