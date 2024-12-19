@@ -19,3 +19,33 @@
 - Optimize healthcare resource allocation by prioritizing at-risk individuals.
 - Lower long-term healthcare costs associated with diabetes management and treatment.
 - Strengthen Stark Health Clinic's role as a leader in technology-driven and patient-focused care.
+
+### METHODOLOGY
+- **STEP 1: Data Cleaning:**  
+  - Handle missing values using appropriate imputation techniques.  
+  - Remove duplicate records and irrelevant columns that do not contribute to prediction.  
+  - Identify and correct anomalies in the dataset to ensure data quality.  
+
+- **STEP 2: Exploratory Data Analysis (EDA):**  
+  - Visualize feature distributions, relationships, and correlations using plots like histograms and heatmaps.  
+  - Identify patterns, trends, and anomalies that may influence loan defaults.  
+  - Formulate hypotheses to guide feature engineering and model selection.  
+
+- **STEP 3: Data Preprocessing:**  
+  - Scale or normalize numerical features and encode categorical variables for compatibility with machine learning models.  
+  - Split the data into training, validation, and test sets to ensure robust evaluation.  
+
+- **STEP 4: Model Training:**  
+  - Select and train machine learning models such as Logistic Regression, Random Forest, or Gradient Boosting.  
+  - Conduct hyperparameter tuning and k-fold cross-validation for model improvement.  
+  - Experiment with multiple algorithms and compare their performance.  
+
+- **STEP 5: Model Evaluation:**  
+  - Assess model performance using metrics like accuracy, precision, recall, F1-score, and ROC-AUC.  
+  - Analyze performance across subsets (e.g., borrower income levels) and perform error analysis.  
+  - Compare results to a baseline model to measure improvements.  
+
+- **STEP 6: Model Optimization:**  
+  - Fine-tune hyperparameters using techniques like Grid Search or Random Search.  
+  - Apply regularization or ensemble methods to address overfitting and enhance performance.  
+  - Refine feature selection and ensure the model generalizes well to unseen data.
