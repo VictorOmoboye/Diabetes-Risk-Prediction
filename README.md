@@ -49,3 +49,44 @@
   - Fine-tune hyperparameters using techniques like Grid Search or Random Search.  
   - Apply regularization or ensemble methods to address overfitting and enhance performance.  
   - Refine feature selection and ensure the model generalizes well to unseen data.
+    
+### LIBRARIES
+- Data Manipulation and Analysis
+  - Pandas: Used for data cleaning, manipulation, and exploration, including handling missing values and creating data frames.
+  - NumPy: Provides support for numerical operations, such as array manipulations and mathematical computations.
+- Data Visualization
+  - Matplotlib: A plotting library for creating static, interactive, and animated visualizations (e.g., histograms, scatter plots).
+  - Seaborn: Built on Matplotlib, it simplifies the creation of aesthetically pleasing and informative statistical graphics (e.g., heatmaps, boxplots).
+- Machine Learning
+  - Scikit-Learn: The primary library for machine learning tasks such as model training, evaluation, hyperparameter tuning, and preprocessing (e.g., scaling, encoding).
+- Model Optimization
+  - XGBoost: An advanced machine learning library for Gradient Boosting, known for its high performance and scalability.
+  - LightGBM: A lightweight Gradient Boosting library optimized for speed and accuracy in large datasets.
+- Environment and Workflow
+  - Jupyter Notebook: An interactive development environment for running and documenting Python code in a notebook format.
+  - Anaconda: A distribution that simplifies Python package management and deployment, including pre-installed libraries for data science.
+
+
+
+
+Pandas: Used for data cleaning, manipulation, and exploration, including handling missing values and creating data frames.
+NumPy: Provides support for numerical operations, such as array manipulations and mathematical computations.
+Matplotlib: A plotting library for creating static, interactive, and animated visualizations (e.g., histograms, scatter plots).
+Seaborn: Built on Matplotlib, it simplifies the creation of aesthetically pleasing and informative statistical graphics (e.g., heatmaps, boxplots).
+Scikit-Learn: The primary library for machine learning tasks such as model training, evaluation, hyperparameter tuning, and preprocessing (e.g., scaling, encoding).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
