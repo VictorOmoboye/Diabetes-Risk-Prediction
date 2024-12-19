@@ -86,6 +86,10 @@ During the data preprocessing stage, categorical variables were encoded into num
 Following data preprocessing, model training commenced with the **Logistic Regression** model to establish a baseline performance. Subsequently, other supervised learning models, including **Decision Tree**, **Stochastic Gradient Descent (SGD)**, and **Random Forest**, were explored to identify the model delivering the best performance. This iterative approach ensures the selection of a robust and accurate predictive model for diabetes onset.
 ![image](https://github.com/user-attachments/assets/5b2723af-a110-46ec-9cc5-d7f7395bfef3)
 
+### Model Evaluation
+The trained models were evaluated to assess their performance across key metrics, including **accuracy**, **precision**, **recall**, and **F1 score**, yielding an average score of 96% across all models. Among the four trained models, the **Random Forest** classifier demonstrated the best performance, achieving a **100% recall**, **97% precision**, **98% F1 score**, and **97% accuracy**. These results highlight Random Forest's superior ability to balance predictive accuracy and sensitivity, making it the most effective model for diabetes risk prediction in this project.
+![image](https://github.com/user-attachments/assets/597ff044-0b13-4429-ad6c-250047e2e5c2)
+
 
 
 
