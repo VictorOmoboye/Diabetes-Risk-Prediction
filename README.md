@@ -106,8 +106,6 @@ The trained models were evaluated to assess their performance across key metrics
 - **Project Outcome**: The Random Forest model's exceptional performance ensures robust diabetes risk prediction, enabling timely and targeted interventions for improved patient outcomes.  
 
 ### RECOMENDATION 
-### Recommendations for Stark Health Based on Project Insights  
-
 - **Focus on Key Predictors**: Prioritize monitoring **Blood Glucose Level** and **HbA1c Level** during routine checkups, as they are the most significant indicators of diabetes risk.  
 
 - **Targeted Interventions for Smokers**: Develop specific preventive programs for former and current smokers, especially those over 50 years old, as they show a higher prevalence of diabetes.  
@@ -122,4 +120,8 @@ The trained models were evaluated to assess their performance across key metrics
 
 ### CONCLUSION
 This project successfully developed a robust diabetes prediction model using advanced machine learning techniques, with the Random Forest classifier demonstrating exceptional performance in identifying at-risk individuals. Through comprehensive data preprocessing, exploratory analysis, and rigorous model evaluation, key predictors such as Blood Glucose Level and HbA1c Level were identified as critical to diabetes risk. The insights derived provide Stark Health Clinic with actionable recommendations to enhance patient care, optimize resource allocation, and implement targeted preventive measures. By integrating this predictive model into its operations, Stark Health can take a proactive approach to combating diabetes, improving patient outcomes, and reducing long-term healthcare costs.
+
+### THANK YOU
+For more information, you can contact me
+![image](https://github.com/user-attachments/assets/f1fa9d80-667e-421c-b5fa-6d796010c029)
 
