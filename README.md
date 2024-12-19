@@ -82,7 +82,9 @@ The analysis of categorical data revealed that the **Smoking History** variable 
 During the data preprocessing stage, categorical variables were encoded into numerical formats to enhance compatibility and accuracy during model training. Additionally, the dataset was split into an 80% training set and a 20% testing set to ensure a robust evaluation of the model's performance. Feature scaling was also applied to normalize numerical variables, ensuring that all features contributed proportionately during model training and preventing dominance by variables with larger scales. These preprocessing steps established a solid foundation for accurate and reliable predictive modeling.
 ![image](https://github.com/user-attachments/assets/65536b81-94da-4d8a-af8f-426eb32ca4dd)
 
-
+### Model Training
+Following data preprocessing, model training commenced with the **Logistic Regression** model to establish a baseline performance. Subsequently, other supervised learning models, including **Decision Tree**, **Stochastic Gradient Descent (SGD)**, and **Random Forest**, were explored to identify the model delivering the best performance. This iterative approach ensures the selection of a robust and accurate predictive model for diabetes onset.
+![image](https://github.com/user-attachments/assets/5b2723af-a110-46ec-9cc5-d7f7395bfef3)
 
 
 
