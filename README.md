@@ -74,9 +74,9 @@ Before performing the exploratory data analysis (EDA), the dataset was examined 
 A correlation analysis of the numerical variables indicated no negative correlations among the features. The strongest correlation was observed between **Blood Glucose Level** and **Diabetes** at 0.42, followed by **HbA1c Level** and **Diabetes** at 0.40, and **BMI** and **Age** at 0.34. The weakest correlation was between **HbA1c Level** and **Age**, with a value of 0.10. These 
 ![image](https://github.com/user-attachments/assets/c708b698-2353-4b42-b9e7-d179ed24a959)
 
-
-
-
+### Categorical Data
+The analysis of categorical data revealed that the **Smoking History** variable is heavily right-skewed. A univariate and bivariate examination of the categorical data showed that a higher proportion of males have diabetes compared to females. Further analysis of smoking history in relation to diabetes status indicated that former smokers have the highest prevalence of diabetes, followed by those categorized as "ever" and "never" smokers. When comparing smoking history with age, patients over 50 years old were predominantly former smokers. Additionally, examining smoking history against diabetes status showed that patients with no smoking information had the highest proportion of negative diabetes cases (0), while those who never smoked exhibited the highest proportion of positive diabetes cases (1) compared to other categories. These insights highlight key patterns that can inform feature engineering and predictive modeling efforts.
+![image](https://github.com/user-attachments/assets/3fdb22f1-ac93-4ea2-93d0-c5a8e218f1ed)
 
 
 
