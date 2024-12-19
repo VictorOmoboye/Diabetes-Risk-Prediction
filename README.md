@@ -72,7 +72,7 @@ Before performing the exploratory data analysis (EDA), the dataset was examined 
 ![image](https://github.com/user-attachments/assets/b83dfa80-9193-420d-a27d-70ad5adcb25f)
 
 A correlation analysis of the numerical variables indicated no negative correlations among the features. The strongest correlation was observed between **Blood Glucose Level** and **Diabetes** at 0.42, followed by **HbA1c Level** and **Diabetes** at 0.40, and **BMI** and **Age** at 0.34. The weakest correlation was between **HbA1c Level** and **Age**, with a value of 0.10. These 
-![image](https://github.com/user-attachments/assets/43ee63da-556d-494d-8fa9-f5e1f21b7157)
+![image](https://github.com/user-attachments/assets/c708b698-2353-4b42-b9e7-d179ed24a959)
 
 
 
