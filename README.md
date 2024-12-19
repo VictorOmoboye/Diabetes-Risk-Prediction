@@ -66,31 +66,44 @@
   - **Jupyter Notebook:** An interactive development environment for running and documenting Python code in a notebook format.
   - **Anaconda:** A distribution that simplifies Python package management and deployment, including pre-installed libraries for data science.
 
-## Explorative Data Analysis
-### Numerica Data
+### Explorative Data Analysis
+#### Numerica Data
 Before performing the exploratory data analysis (EDA), the dataset was examined for missing values and anomalies. The results showed no missing values, and the only detected anomaly was the date column being in an object format, which was converted to an integer for improved data accuracy. The EDA revealed that the distribution of **Age** is standard with no outliers, while the distribution of **BMI (Body Mass Index)** is right-skewed but also free of outliers. insights provide a solid foundation for feature selection and model building.
 ![image](https://github.com/user-attachments/assets/b83dfa80-9193-420d-a27d-70ad5adcb25f)
 
 A correlation analysis of the numerical variables indicated no negative correlations among the features. The strongest correlation was observed between **Blood Glucose Level** and **Diabetes** at 0.42, followed by **HbA1c Level** and **Diabetes** at 0.40, and **BMI** and **Age** at 0.34. The weakest correlation was between **HbA1c Level** and **Age**, with a value of 0.10. These 
 ![image](https://github.com/user-attachments/assets/c708b698-2353-4b42-b9e7-d179ed24a959)
 
-### Categorical Data
+#### Categorical Data
 The analysis of categorical data revealed that the **Smoking History** variable is heavily right-skewed. A univariate and bivariate examination of the categorical data showed that a higher proportion of males have diabetes compared to females. Further analysis of smoking history in relation to diabetes status indicated that former smokers have the highest prevalence of diabetes, followed by those categorized as "ever" and "never" smokers. When comparing smoking history with age, patients over 50 years old were predominantly former smokers. Additionally, examining smoking history against diabetes status showed that patients with no smoking information had the highest proportion of negative diabetes cases (0), while those who never smoked exhibited the highest proportion of positive diabetes cases (1) compared to other categories. These insights highlight key patterns that can inform feature engineering and predictive modeling efforts.
 ![image](https://github.com/user-attachments/assets/3fdb22f1-ac93-4ea2-93d0-c5a8e218f1ed)
 
-### Data Preprocessing
+#### Data Preprocessing
 During the data preprocessing stage, categorical variables were encoded into numerical formats to enhance compatibility and accuracy during model training. Additionally, the dataset was split into an 80% training set and a 20% testing set to ensure a robust evaluation of the model's performance. Feature scaling was also applied to normalize numerical variables, ensuring that all features contributed proportionately during model training and preventing dominance by variables with larger scales. These preprocessing steps established a solid foundation for accurate and reliable predictive modeling.
 ![image](https://github.com/user-attachments/assets/65536b81-94da-4d8a-af8f-426eb32ca4dd)
 
-### Model Training
+#### Model Training
 Following data preprocessing, model training commenced with the **Logistic Regression** model to establish a baseline performance. Subsequently, other supervised learning models, including **Decision Tree**, **Stochastic Gradient Descent (SGD)**, and **Random Forest**, were explored to identify the model delivering the best performance. This iterative approach ensures the selection of a robust and accurate predictive model for diabetes onset.
 ![image](https://github.com/user-attachments/assets/5b2723af-a110-46ec-9cc5-d7f7395bfef3)
 
-### Model Evaluation
+#### Model Evaluation
 The trained models were evaluated to assess their performance across key metrics, including **accuracy**, **precision**, **recall**, and **F1 score**, yielding an average score of 96% across all models. Among the four trained models, the **Random Forest** classifier demonstrated the best performance, achieving a **100% recall**, **97% precision**, **98% F1 score**, and **97% accuracy**. These results highlight Random Forest's superior ability to balance predictive accuracy and sensitivity, making it the most effective model for diabetes risk prediction in this project.
 ![image](https://github.com/user-attachments/assets/597ff044-0b13-4429-ad6c-250047e2e5c2)
 
-
+### KEY INSIGHTS
+- **Data Quality**: No missing values were identified, and anomalies such as date format issues were resolved to ensure data accuracy.  
+- **Feature Analysis**:  
+  - Age distribution was standard, and BMI displayed a right-skewed distribution with no outliers.  
+  - Strongest correlations included **Blood Glucose Level vs. Diabetes** (0.42) and **HbA1c Level vs. Diabetes** (0.40).  
+  - Weakest correlation observed was between **HbA1c Level and Age** (0.10).  
+- **Categorical Insights**:  
+  - Smoking history was heavily right-skewed, with former smokers showing the highest diabetes prevalence.  
+  - Patients above 50 years old were predominantly former smokers, and those who never smoked had the highest positive diabetes cases.  
+- **Modeling Results**:  
+  - Logistic Regression provided a baseline, while Decision Tree, SGD, and Random Forest models improved predictive performance.  
+  - Random Forest outperformed all other models, achieving **100% recall**, **97% precision**, **98% F1 score**, and **97% accuracy**.  
+- **Impactful Features**: Blood Glucose Level and HbA1c Level emerged as key predictors of diabetes onset.  
+- **Project Outcome**: The Random Forest model's exceptional performance ensures robust diabetes risk prediction, enabling timely and targeted interventions for improved patient outcomes.  
 
 
 
