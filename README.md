@@ -5,3 +5,9 @@
 ### INTRODUCTION
 **Stark Health Clinic**, a leader in technology-driven healthcare, aims to enhance patient outcomes and optimize resource allocation through predictive modeling. This project leverages machine learning to identify individuals at risk of developing diabetes, enabling early and targeted interventions. By analyzing patient data, it seeks to develop a robust and accurate model to predict diabetes onset. The initiative includes exploratory data analysis, feature engineering, and the training of multiple supervised learning models to identify critical patterns. This proactive approach will reduce healthcare costs, improve patient care, and strengthen the clinic's role in combating diabetes.
 ![image](https://github.com/user-attachments/assets/464b2f41-8b12-42e1-bac3-720b4a98dd67)
+
+### PROBLEM STATEMENT
+- Diabetes poses significant health risks to patients and creates financial challenges for healthcare providers.
+- Current early detection methods at Stark Health Clinic lack precision, resulting in missed opportunities for timely interventions.
+- Inaccurate predictions lead to delayed care, increased complications, and higher treatment costs.
+- The clinic requires a reliable and robust predictive model to identify high-risk individuals effectively.
