@@ -78,6 +78,9 @@ A correlation analysis of the numerical variables indicated no negative correlat
 The analysis of categorical data revealed that the **Smoking History** variable is heavily right-skewed. A univariate and bivariate examination of the categorical data showed that a higher proportion of males have diabetes compared to females. Further analysis of smoking history in relation to diabetes status indicated that former smokers have the highest prevalence of diabetes, followed by those categorized as "ever" and "never" smokers. When comparing smoking history with age, patients over 50 years old were predominantly former smokers. Additionally, examining smoking history against diabetes status showed that patients with no smoking information had the highest proportion of negative diabetes cases (0), while those who never smoked exhibited the highest proportion of positive diabetes cases (1) compared to other categories. These insights highlight key patterns that can inform feature engineering and predictive modeling efforts.
 ![image](https://github.com/user-attachments/assets/3fdb22f1-ac93-4ea2-93d0-c5a8e218f1ed)
 
+### Data Preprocessing
+During the data preprocessing stage, categorical variables were encoded into numerical formats to enhance compatibility and accuracy during model training. Additionally, the dataset was split into an 80% training set and a 20% testing set to ensure a robust evaluation of the model's performance. Feature scaling was also applied to normalize numerical variables, ensuring that all features contributed proportionately during model training and preventing dominance by variables with larger scales. These preprocessing steps established a solid foundation for accurate and reliable predictive modeling.
+![image](https://github.com/user-attachments/assets/65536b81-94da-4d8a-af8f-426eb32ca4dd)
 
 
 
