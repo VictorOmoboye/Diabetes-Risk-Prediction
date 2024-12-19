@@ -66,8 +66,8 @@
   - **Jupyter Notebook:** An interactive development environment for running and documenting Python code in a notebook format.
   - **Anaconda:** A distribution that simplifies Python package management and deployment, including pre-installed libraries for data science.
 
-
-
+## Explorative Data Analysis
+### Numerica Data
 
 
 
