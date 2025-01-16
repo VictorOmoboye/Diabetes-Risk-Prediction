@@ -28,7 +28,7 @@
 
 - **STEP 2: Exploratory Data Analysis (EDA):**  
   - Visualize feature distributions, relationships, and correlations using plots like histograms and heatmaps.  
-  - Identify patterns, trends, and anomalies that may influence loan defaults.  
+  - Identify patterns, trends, and anomalies that may influence diabetes risk.  
   - Formulate hypotheses to guide feature engineering and model selection.  
 
 - **STEP 3: Data Preprocessing:**  
