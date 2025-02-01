@@ -116,7 +116,6 @@ The trained models were evaluated to assess their performance across key metrics
 
 - **Data-driven Resource Allocation**: Allocate healthcare resources more efficiently by focusing on high-risk groups, ensuring timely interventions and reducing long-term costs.  
 
-- **Educational Campaigns**: Launch awareness campaigns highlighting the impact of smoking and obesity on diabetes risk, encouraging healthier lifestyles among patients.  
 
 ### CONCLUSION
 This project successfully developed a robust diabetes prediction model using advanced machine learning techniques, with the Random Forest classifier demonstrating exceptional performance in identifying at-risk individuals. Through comprehensive data preprocessing, exploratory analysis, and rigorous model evaluation, key predictors such as Blood Glucose Level and HbA1c Level were identified as critical to diabetes risk. The insights derived provide Stark Health Clinic with actionable recommendations to enhance patient care, optimize resource allocation, and implement targeted preventive measures. By integrating this predictive model into its operations, Stark Health can take a proactive approach to combating diabetes, improving patient outcomes, and reducing long-term healthcare costs.
